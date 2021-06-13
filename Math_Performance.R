@@ -1,6 +1,4 @@
 
-load("~/Desktop/UOL/ML Year 3/Coursework/Part 2/Part_2.RData")
-setwd("~/Desktop/UOL/ML Year 3/Coursework/Part 2")
 df1 <- read.csv('student-mat.csv',sep=';', stringsAsFactors = T)
 
 library(ggplot2)
@@ -150,4 +148,3 @@ RMSE.rf.Math <- sqrt(mean((math.model - test_m$G3)^2))
 ## Random Forest has the lowest RMSE
 
 
-save.image("~/Desktop/UOL/ML Year 3/Coursework/Part 2/Part_2.RData")
